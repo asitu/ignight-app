@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Fira Sans', sans-serif;
-
+  font-family: 'Oxygen', sans-serif;
 }
 
 .hero {
@@ -26,11 +25,14 @@ body {
 }
 
 .hero h1 {
-  /* Text styles */
-  font-size: 5em;
-   /* Margins */
    margin-top: 0;
    margin-bottom: 0.5em;
+   font-size: 29px;
+   font-weight: 600;
+   font-style: normal;
+  font-stretch: normal;
+  line-height: 38px;
+  letter-spacing: normal;
 }
 
 #logo{
@@ -46,6 +48,56 @@ body {
   padding-left: 0
 }
 
-#phone-mockup-hero{
-  
+#phone-mockup-hero img{
+  margin-top: 150px;
+  margin-bottom: 150px
 }
+
+#section-1 {
+  margin-top: 100px
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #343a40
+}
+
+p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #727272;
+}
+#feature-desc{
+  padding-right: 200px;
+  padding-left: 200px
+}
+
+/* #omfg{
+  position: absolute
+} */
+
+#image-center{
+  z-index: 3;
+  position: relative;
+  align-items: center !important;
+  justify-content: center !important;
+
+}
+
+#image-left-1 img{
+  position: absolute;
+  display:flex;
+  align-items: center !important; 
+  justify-content: center !important;
+  margin-top: -455px;
+  margin-left: 50px;
+  animation-delay: 5s;
+
+}
+
+
