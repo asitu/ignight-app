@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 90vh;
+
+  color: white;
+  
+  /* Flexbox stuff */
+  display: flex;
+
+  /* Text styles */
+  text-align: left;
+
+   /* Background styles */
+   background-image: url(../assets/img/bg-img.png);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+   /* Margins */
+   margin-top: 0;
+   margin-bottom: 0.5em;
+}
+
+#logo{
+    width: 93px;
+    height: 35px;
+    margin: 0;
+    position: relative;
+}
+
+#tagline {
+  margin-top: 300px;
+  margin-left: 0;
+  padding-left: 0
+}
+
+#phone-mockup-hero{
+  
+}
