@@ -85,10 +85,6 @@ p{
   padding-left: 200px
 }
 
-/* #omfg{
-  position: absolute
-} */
-
 #image-center{
   z-index: 3;
   position: relative;
@@ -115,4 +111,105 @@ p{
   margin-left: 600px;
 }
 
+#profile-circles-right{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+}
+
+#user1{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -290px;
+  margin-left: 780px;
+}
+
+#user2{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -150px;
+  margin-left: 720px;
+}
+
+#user3{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -380px;
+  margin-left: 650px;
+}
+
+#user4{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -98px;
+  margin-left: 860px;
+}
+#user5{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -500px;
+  margin-left: 770px;
+}
+
+#user6{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -410px;
+  margin-left: 900px;
+}
+
+#profile-circles-left{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+}
+
+#user7{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -200px;
+  margin-left: 360px;
+}
+#user8{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -315px;
+  margin-left: 280px;
+}
+#user9{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -115px;
+  margin-left: 220px;
+}
+#user10{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -245px;
+  margin-left: 120px;
+}
+#user11{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -430px;
+  margin-left: 140px;
+}
+#user12{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -480px;
+  margin-left: 300px;
+}
 
