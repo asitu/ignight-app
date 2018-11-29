@@ -34,7 +34,10 @@ body {
   line-height: 38px;
   letter-spacing: normal;
 }
-
+#hero-container{
+  margin-left: 90px;
+  margin-right: 90px;
+}
 #logo{
     width: 93px;
     height: 35px;
@@ -89,15 +92,22 @@ p{
 
 }
 
-#image-left-1 img{
+#image-left img{
   position: absolute;
   display:flex;
   align-items: center !important; 
   justify-content: center !important;
   margin-top: -455px;
   margin-left: 50px;
-  animation-delay: 5s;
+}
 
+#image-right img{
+  position: absolute;
+  display:flex;
+  align-items: center !important; 
+  justify-content: center !important;
+  margin-top: -455px;
+  margin-left: 600px;
 }
 
 
