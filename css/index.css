@@ -115,7 +115,7 @@ p{
   z-index: 4;
   margin-top: -290px;
   margin-left: 780px;
-  transition: transform .2s;
+  animation: float 3s ease-in-out infinite;
 }
 #user2{
   position: absolute;
