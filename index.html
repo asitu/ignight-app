@@ -7,13 +7,14 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/themes.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     
     <title>a5</title>
   </head>
 
-  <body>
+  <body id="body" class="dark-mode">
     <!--Hero-->
     <section class="hero">
       <div class="row" id="hero-container">
@@ -66,7 +67,7 @@
     <div id="section-2" class="container justify-content-center">
       <div class="text-center" data-aos="fade">
         <h2>Share Good Views and Vibes</h2>
-        <p id="feature-desc" class="pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pellentesque iaculis risus, et consectetur neque. </p>
+        <p id="feature-desc" class="pt-3">No more space on your device? Ignight has a ton of space for you to share and store your event memories- photos, stories, videos- with your buddies.   </p>
         <div id="image-center">
             <img src="./assets/img/mockup-3.png" alt="mockup2" width="250" class="pt-3">
         </div>
@@ -101,12 +102,20 @@
     </div>
 
 
-
+    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button>
 
     <!-- fade-animation -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <!-- dark and light themes: https://codepen.io/HarlemSquirrel/pen/NdMebZ -->
+    <script>
+      function toggleDarkLight() {
+      var body = document.getElementById("body");
+      var currentClass = body.className;
+  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+}
     </script>
 
     <!-- Optional JavaScript -->
