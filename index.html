@@ -14,7 +14,7 @@
     <title>a5</title>
   </head>
 
-  <body id="body" class="dark-mode">
+  <body id="body" class="light-mode">
     <!--Hero-->
     <section class="hero">
       <div class="row" id="hero-container">
@@ -91,19 +91,22 @@
     </div>
     <!--Section 3-->
     <div id="section-3" class="container justify-content-center">
-      <div class="text-center" data-aos="fade">
-          <h2>Discover upcoming events near you</h2>
+      <div class="text-center pb-5" data-aos="fade">
+          <h2>Discover Events near you</h2>
       </div>
-      <div id="event-cards">
-        <div id="card-1">
-          <img>
-        </div>
+      <div class="event-cards">
+        <div id="card-1" class="cards"></div>
+        <div id="card-2" class="cards"></div>
+        <div id="card-3" class="cards"></div>
+        <div id="card-4" class="cards"></div>
+        <div id="card-5" class="cards"></div>
       </div>
     </div>
 
 
-    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button>
-
+    <div class="theme-switch">
+      <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button>
+    </div>
     <!-- fade-animation -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -114,8 +117,8 @@
       function toggleDarkLight() {
       var body = document.getElementById("body");
       var currentClass = body.className;
-  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-}
+      body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+      }
     </script>
 
     <!-- Optional JavaScript -->

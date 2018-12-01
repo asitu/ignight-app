@@ -115,7 +115,7 @@ p{
   z-index: 4;
   margin-top: -290px;
   margin-left: 780px;
-  animation: float 5s ease-in-out infinite;
+  transition: transform .2s;
 }
 #user2{
   position: absolute;
@@ -222,13 +222,43 @@ p{
 		transform: translatey(0px);
 	}
 }
-a {
+.hero a {
   color: white;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
-a:hover {
+.hero a:hover {
   color: #BFBFBF;
   text-decoration: none;
 }
+
+.cards{
+    width: 158px;
+    height: 298px;
+    border-radius: 4px;
+    background:linear-gradient(335deg, #35edc3, #1d8792 25%, rgba(0, 13, 88, 0.8)), ;
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px
+  }
+  
+#card-1{
+  background-image: url(../assets/img/crush.png);
+}
+
+#card-2{
+  background-image: url(../assets/img/musicfest.png);
+}
+#card-3{
+  background-image: url(../assets/img/brunomars.png);
+}
+#card-4{
+  background-image: url(../assets/img/michaelbuble.png);
+}
+#card-5{
+  background-image: url(../assets/img/musical.png);
+}
+.theme-switch{
+  clear: both
+  }

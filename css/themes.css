@@ -2,8 +2,11 @@ body.dark-mode {
   background-color: #111;
   color: #eee;}
 
-  body.dark-mode a {
-    color: #111;
+  body.dark-mode, .hero a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
   }
   body.dark-mode button {
     background-color: #eee;
@@ -12,11 +15,14 @@ body.dark-mode {
 
 
 body.light-mode {
-  background-color: #eee;
+  background-color: white;
   color: #111;}
   
-body.light-mode a {
-    color: #111;
+body.light-mode, .hero a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
   }
 body.light-mode button {
     background-color: #111;
