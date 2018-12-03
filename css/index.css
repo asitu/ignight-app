@@ -74,11 +74,11 @@ h3{
   color: #727272
 }
 p{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 32px;
+  line-height: 28px;
   letter-spacing: normal;
   color: #727272;
 }
@@ -90,8 +90,8 @@ p{
   background-size: cover;
 }
 #feature-desc{
-  padding-right: 120px;
-  padding-left: 120px
+  padding-right: 180px;
+  padding-left: 180px
 }
 #image-center{
   z-index: 3;
