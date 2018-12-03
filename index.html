@@ -9,7 +9,6 @@
     <link rel="shortcut icon" type="image/png" href="./assets/icons/app-icon.png"/>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/themes.css">
-    <link rel="stylesheet" href="css/custom-animation.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     
@@ -26,7 +25,7 @@
               <img src="./assets/icons/logo.png" alt="logo">
             </div>
           </div>
-          <div id="tagline" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" data-aos-once="true">
+          <div id="tagline" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" >
             <h1>Ignite you and your friends' event experience with group ticketing</h1>
             <div class="pt-5">
               <a href="https://www.apple.com/ca/ios/app-store/"><img src="./assets/icons/appstore.svg" alt="app store icon"></a>
@@ -110,22 +109,49 @@
     </div>
 <!--Section 3-->
     <div id="section-3" class="container justify-content-center">
-      <div class="text-center pb-5" data-aos="fade">
+      <div class="col text-center pb-5" data-aos="fade">
           <h2>Discover Events near you</h2>
       </div>
       <div class="event-cards">
-        <div id="card-1" class="cards" data-aos="fade-up" data-aos-anchor-placement="center-bottom"></div>
-        <div id="card-2" class="cards" data-aos="fade-up" data-aos-anchor-placement="center-bottom"></div>
-        <div id="card-3" class="cards"></div>
-        <div id="card-4" class="cards" data-aos="fade-up" data-aos-anchor-placement="center-bottom"></div>
-        <div id="card-5" class="cards"></div>
+        <div id="card-1" class="cards text-center" data-aos="fade-up" data-aos-anchor-placement="center-bottom" duration="10000" data-aos-delay="400" data-aos-easing="ease-in-out"> 
+          <h4 id="eventname">CRUSH</h4>
+        </div>
+        <div id="card-2" class="cards text-center" data-aos="fade-up" data-aos-anchor-placement="center-bottom" duration="10000" data-aos-delay="600" data-aos-easing="ease-in-out">
+          <h4 id="eventname">MUSIC FEST</h4>
+        </div>
+        <div id="card-3" class="cards text-center" data-aos="fade-up" data-aos-anchor-placement="center-bottom" duration="10000" data-aos-delay="800" data-aos-easing="ease-in-out">
+          <h4 id="eventname">BRUNO MARS</h4>
+        </div>
+        <div id="card-4" class="cards text-center" data-aos="fade-up" data-aos-anchor-placement="center-bottom" duration="10000" data-aos-delay="1000" data-aos-easing="ease-in-out">
+          <h4 id="eventname">MICHAEL BUBLÉ</h4>
+        </div>
+        <div id="card-5" class="cards text-center" data-aos="fade-up" data-aos-anchor-placement="center-bottom" duration="10000" data-aos-delay="1200" data-aos-easing="ease-in-out">
+          <h4 id="eventname">XMAS MUSICAL</h4>
+        </div>
       </div>
     </div>
 
-<!--Footer-->
+<!-- Testimonial
+    <div id="testimonial">
+      <div class="container justify-content-center text-center" id="testimonial-text">
+        <div>
+          <p>Me and my friends always had the struggle of figuring how to buy tickets together so that no one is separated. Using Ignight, We're able to split the cost without pulling out our calculators and transfering tickets is so easy! </p>
+        </div>
+        <img src="./assets/img/profiles/user1.png" alt="user testimonial" width="60">
+        <p>Rose Wens</p>
+      </div>
+    </div> -->
+<!-- Footer -->
     <div id="footer">
-
+      <div class="container justify-content-center text-center" id="footer-content">
+        <h2>Get started with Ignight & Discover upcoming events</h2>
+      </div>
+      <div id="app-store-logos" class=" text-center pt-4">
+        <img src="assets/icons/appstore.svg" alt="apple app store logo">
+        <img src="assets/icons/googleplay.png" alt="google play logo" width="155">
+      </div>
     </div>
+
 
 
 
