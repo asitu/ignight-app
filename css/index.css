@@ -100,8 +100,8 @@ p{
   padding-left: 180px
 }
 #section-1 #feature-desc{
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 180px;
+  margin-left: 180px;
  
 }
 
@@ -126,7 +126,6 @@ p{
 
  #concertmodegif{
   position: absolute;
-  margin-top: px;
   margin-left: -245px;
   z-index: -1;
 }
@@ -137,7 +136,7 @@ p{
   align-items: center !important; 
   justify-content: center !important;
   margin-top: -455px;
-  margin-left: 12%;
+  margin-left: 15%;
 }
 #image-right img{
   position: absolute;
