@@ -370,11 +370,55 @@ a:hover{
     width: 400px;
     padding-top: 100px
   }
+  #tagline h1{
+    font-size: 32px;
+    padding-right: 100px;
+    line-height: 46px
+  }
+  #image-left img{
+    position: absolute;
+    display:flex;
+    align-items: center !important; 
+    justify-content: center !important;
+    margin-top: -455px;
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 1600px) {
+  #image-left img{
+    position: absolute;
+    display:flex;
+    align-items: center !important; 
+    justify-content: center !important;
+    margin-top: -455px;
+    margin-left: 18%;
+  }
+
 }
 
 @media (min-width: 1800px) { 
   #phone-mockup-hero img{
     width: 450px;
     padding-top: 100px
+  }
+  #image-left img{
+    position: absolute;
+    display:flex;
+    align-items: center !important; 
+    justify-content: center !important;
+    margin-top: -455px;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 1900px) { 
+  #image-left img{
+    position: absolute;
+    display:flex;
+    align-items: center !important; 
+    justify-content: center !important;
+    margin-top: -455px;
+    margin-left: 25%;
   }
 }
