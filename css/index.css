@@ -40,7 +40,7 @@ body {
 }
 
 #tagline {
-  margin-top: 240px;
+  margin-top: 270px;
   margin-left: 0;
   padding-left: 0;
 }
@@ -56,7 +56,7 @@ body {
   padding-bottom: 100px
 }
 #section-2 {
-  margin-top: 100px;
+  margin-top: 130px;
   padding-bottom: 100px
 }
 #section-3 {
@@ -88,13 +88,25 @@ p{
   letter-spacing: normal;
   color: #727272;
 }
-
 #section-organizers{
   width: 100vw;
-  height: 24vh;
+  height: 22vh;
   background-color: #F6F6F6;
   background-size: cover;
 }
+#section-resale{
+  height: 45vh;
+  background-color: #f6f6f6;
+}
+#section-resale-1{
+  padding: 15vh 100px 0 300px  
+}
+
+#section-resale-img{
+  padding-left: 100px;
+  padding-right: 300px
+}
+
 #feature-desc{
   padding-right: 180px;
   padding-left: 180px
@@ -102,7 +114,6 @@ p{
 #section-1 #feature-desc{
   margin-right: 160px;
   margin-left: 160px;
- 
 }
 
 #image-center{
@@ -339,6 +350,11 @@ a:hover{
 #footer h2{
   color: white
 }
+#footer h6{
+  color: lightgrey;
+  font-size: 14px;
+  
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -353,7 +369,6 @@ a:hover{
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -361,6 +376,9 @@ a:hover{
   #phone-mockup-hero img{
     width: 350px;
     padding-top: 100px
+  }
+  #section-resale-img img{
+    width: 250px
   }
  }
 
@@ -394,7 +412,13 @@ a:hover{
     margin-top: -455px;
     margin-left: 18%;
   }
-
+  #section-1 #feature-desc{
+    margin-left: 250px;
+    margin-right: 250px
+  }
+  #section-resale-img img{
+    width: 300px
+  }
 }
 
 @media (min-width: 1800px) { 
