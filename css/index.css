@@ -95,8 +95,11 @@ p{
   background-size: cover;
 }
 #section-resale{
+  width: 100vw;
   height: 45vh;
+  margin:0;
   background-color: #f6f6f6;
+  background-size: cover;
 }
 #section-resale-1{
   padding: 15vh 100px 0 300px  
