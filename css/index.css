@@ -21,11 +21,11 @@ body {
 .hero h1 {
    margin-top: 0;
    margin-bottom: 0.5em;
-   font-size: 38px;
+   font-size: 30px;
    font-weight: 600;
    font-style: normal;
   font-stretch: normal;
-  line-height: 50px;
+  line-height: 44px;
   letter-spacing: normal;
 }
 #hero-container{
@@ -40,16 +40,16 @@ body {
 }
 
 #tagline {
-  margin-top: 290px;
+  margin-top: 240px;
   margin-left: 0;
-  padding-left: 0
+  padding-left: 0;
 }
 .hero p{
   color: #E0E0E0;
   font-size: 18px;
 }
 #phone-mockup-hero img{
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 150px
 }
 #section-1 {
