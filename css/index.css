@@ -99,6 +99,12 @@ p{
   padding-right: 180px;
   padding-left: 180px
 }
+#section-1 #feature-desc{
+  margin-right: 200px;
+  margin-left: 200px;
+ 
+}
+
 #image-center{
   z-index: 3;
   padding-top: 20px;

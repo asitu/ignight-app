@@ -1,30 +1,18 @@
 body.dark-mode {
   background-color: #111;
   color: #eee;}
-
-  body.dark-mode, .hero a {
-    color: white;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-  }
-  body.dark-mode button {
-    background-color: #eee;
+  body.dark-mode a {
     color: #111;
   }
-
+  body.dark-mode h2{
+    color:#eee;;
+  }
+  body.dark-mode p{
+    color:#C1C1C1;
+  }
 
 body.light-mode {
-  background-color: white;
+  background-color: #eee;
   color: #111;}
-  
-body.light-mode, .hero a {
-  color: white;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  }
-body.light-mode button {
-    background-color: #111;
-    color: #eee;
-  }
+
+
