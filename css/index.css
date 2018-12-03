@@ -49,8 +49,7 @@ body {
   font-size: 18px;
 }
 #phone-mockup-hero img{
-  margin-top: 100px;
-  margin-bottom: 150px
+  padding-top: 10vh;
 }
 #section-1 {
   margin-top: 130px;
@@ -65,7 +64,7 @@ body {
   padding-bottom: 100px
 }
 h2{
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   color: #343a40
 }
@@ -125,7 +124,7 @@ p{
   align-items: center !important; 
   justify-content: center !important;
   margin-top: -455px;
-  margin-left: 50px;
+  margin-left: 12%;
 }
 #image-right img{
   position: absolute;
@@ -133,7 +132,7 @@ p{
   align-items: center !important; 
   justify-content: center !important;
   margin-top: -455px;
-  margin-left: 600px;
+  margin-left: 53%;
 }
 #profile-circles-right{
   position: absolute;
@@ -262,6 +261,10 @@ p{
 .hero a:hover {
   color: #BFBFBF;
   text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none
 }
 
 .cards{
