@@ -1,0 +1,22 @@
+[data-aos="show"] {
+  opacity: 0;
+  transition-property: transform, opacity;}
+
+  .aos-animate {
+    opacity: 1;
+   transition: opacity 2s ease-in;
+   -moz-transition: opacity 2s ease-in;
+   -webkit-transition: opacity 2s ease-in;
+  }
+
+  @media screen and (min-width: 768px) {
+    transform: translateX(100px);
+
+    .aos-animate {
+      transform: translateX(0);
+      opacity: 1;
+   transition: opacity 2s ease-in;
+   -moz-transition: opacity 2s ease-in;
+   -webkit-transition: opacity 2s ease-in;
+    }
+  }
