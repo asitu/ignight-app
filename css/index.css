@@ -146,6 +146,12 @@ padding-left: 450px;
 padding-right: 400px;
 z-index: 1;
 }
+#discount-img img{
+  width: 100px;
+  opacity: 0.2;
+  position: relative;
+  text-align: center;
+}
 
 #feature-desc{
   padding-right: 180px;
@@ -406,6 +412,9 @@ a:hover{
     position: relative;
     text-align: center;
   }
+  #section-resale-1 {
+    padding-left:350px;
+  }
  }
 
  /* // Extra large devices (large desktops, 1200px and up) */
@@ -426,6 +435,12 @@ a:hover{
     justify-content: center !important;
     margin-top: -455px;
     margin-left: 15%;
+  }
+  #discount-img img{
+    width: 100px;
+    opacity: 0.2;
+    position: relative;
+    text-align: center;
   }
 }
 
@@ -463,6 +478,13 @@ a:hover{
     margin-top: -455px;
     margin-left: 20%;
   }
+  #discount-img img{
+    width: 100px;
+    opacity: 0.2;
+    position: relative;
+    text-align: center;
+  }
+  
 }
 
 @media (min-width: 1900px) { 
@@ -473,5 +495,11 @@ a:hover{
     justify-content: center !important;
     margin-top: -455px;
     margin-left: 25%;
+  }
+  #discount-img img{
+    width: 100px;
+    opacity: 0.2;
+    position: relative;
+    text-align: center;
   }
 }
