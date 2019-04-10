@@ -178,6 +178,7 @@ z-index: 1;
   position: absolute;
   margin-left: -245px;
   z-index: -1;
+  margin-top: 30px
 }
 
 #image-left img{
