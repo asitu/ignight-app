@@ -65,8 +65,14 @@ body {
   margin-left: 280px;
   margin-right: 100px
 }
-#section-3 #feature{
-
+#section-3 #feature-app #iphone{
+  z-index: 3;
+}
+#section-3 #gif-2{
+  position: absolute;
+  margin-left: -245px;
+  margin-top: 30px;
+  z-index: -1;
 }
 
 
