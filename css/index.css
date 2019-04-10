@@ -60,6 +60,19 @@ body {
   padding-bottom: 100px
 }
 #section-3 {
+  margin-top: 130px;
+  padding-bottom: 100px;
+  margin-left: 280px;
+  margin-right: 100px
+}
+#section-3 #feature{
+
+}
+
+
+
+
+#section-4 {
   margin-top: 90px;
   padding-bottom: 100px;
   overflow:hidden
@@ -73,7 +86,7 @@ h3{
   font-size: 26px;
   color: #727272
 }
-#section-3 h4{
+#section-4 h4{
   color: #ffffff;
   font-size: 31px;
   font-weight: 600;
@@ -96,18 +109,18 @@ p{
 }
 #section-resale{
   width: 100vw;
-  height: 45vh;
+  height: 24vh;
   margin:0;
   background-color: #f6f6f6;
   background-size: cover;
 }
 #section-resale-1{
-  padding: 15vh 100px 0 300px  
-}
-
-#section-resale-img{
-  padding-left: 100px;
-  padding-right: 300px
+position: absolute;
+text-align: center;
+padding-top: 90px;
+padding-left: 450px;
+padding-right: 400px;
+z-index: 1;
 }
 
 #feature-desc{
@@ -131,14 +144,14 @@ p{
   z-index: 4;
 }
 
-#groupbuygif, #concertmodegif{
+#groupbuygif, #gif-1{
   position: absolute;
   margin-top: 32px;
   margin-left: -245px;
   z-index: -1;
 }
 
- #concertmodegif{
+ #gif-1{
   position: absolute;
   margin-left: -245px;
   z-index: -1;
@@ -380,8 +393,8 @@ a:hover{
     width: 350px;
     padding-top: 100px
   }
-  #section-resale-img img{
-    width: 250px
+  #discount-img img{
+    width: 70px
   }
  }
 
@@ -419,8 +432,12 @@ a:hover{
     margin-left: 250px;
     margin-right: 250px
   }
-  #section-resale-img img{
-    width: 300px
+  #discount-img img{
+    width: 150px;
+    opacity: 0.2;
+    position: relative;
+    text-align: center;
+
   }
 }
 
