@@ -59,7 +59,7 @@ body {
   margin-top: 130px;
   padding-bottom: 100px
 }
-#section-3 {
+#section-3, #section-3-2, #section-3-3 {
   margin-top: 130px;
   padding-bottom: 100px;
   margin-left: 280px;
@@ -68,7 +68,25 @@ body {
 #section-3 #feature-app #iphone{
   z-index: 3;
 }
-#section-3 #gif-2{
+#section-3-2 #feature-app #iphone{
+  z-index: 3;
+}
+#section-3-3 #feature-app #iphone{
+  z-index: 3;
+}
+#section-3 .gif-2{
+  position: absolute;
+  margin-left: -245px;
+  margin-top: 30px;
+  z-index: -1;
+}
+#section-3-2 .gif-2{
+  position: absolute;
+  margin-left: -245px;
+  margin-top: 30px;
+  z-index: -1;
+}
+#section-3-3 .gif-2{
   position: absolute;
   margin-left: -245px;
   margin-top: 30px;
