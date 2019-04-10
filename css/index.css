@@ -64,6 +64,9 @@ body {
   padding-bottom: 100px;
   padding-left: 280px;
 }
+#feature-app{
+  
+}
 #section-3 #feature-app #iphone{
   z-index: 3;
 }
@@ -146,10 +149,7 @@ padding-right: 400px;
 z-index: 1;
 }
 #discount-img img{
-  width: 100px;
   opacity: 0.2;
-  position: relative;
-  text-align: center;
 }
 
 #feature-desc{
@@ -173,12 +173,6 @@ z-index: 1;
   z-index: 4;
 }
 
-#groupbuygif, #gif-1{
-  position: absolute;
-  margin-top: 32px;
-  margin-left: -245px;
-  z-index: -1;
-}
 
  #gif-1{
   position: absolute;
@@ -406,14 +400,14 @@ a:hover{
     padding-top: 100px
   }
   #discount-img img{
-    width: 100px;
+    width: 150px;
     opacity: 0.2;
     position: relative;
     text-align: center;
   }
-  #section-resale-1 {
+  /* #section-resale-1 {
     padding-left:350px;
-  }
+  } */
  }
 
  /* // Extra large devices (large desktops, 1200px and up) */
@@ -427,20 +421,6 @@ a:hover{
     padding-right: 100px;
     line-height: 46px
   }
-  #image-left img{
-    position: absolute;
-    display:flex;
-    align-items: center !important; 
-    justify-content: center !important;
-    margin-top: -455px;
-    margin-left: 15%;
-  }
-  #discount-img img{
-    width: 100px;
-    opacity: 0.2;
-    position: relative;
-    text-align: center;
-  }
 }
 
 @media (min-width: 1600px) {
@@ -452,10 +432,7 @@ a:hover{
     margin-top: -455px;
     margin-left: 18%;
   }
-  #section-1 #feature-desc{
-    margin-left: 250px;
-    margin-right: 250px
-  }
+
   #discount-img img{
     width: 150px;
     opacity: 0.2;
@@ -469,36 +446,8 @@ a:hover{
     width: 450px;
     padding-top: 100px
   }
-  #image-left img{
-    position: absolute;
-    display:flex;
-    align-items: center !important; 
-    justify-content: center !important;
-    margin-top: -455px;
-    margin-left: 20%;
-  }
-  #discount-img img{
-    width: 100px;
-    opacity: 0.2;
-    position: relative;
-    text-align: center;
-  }
-  
 }
 
 @media (min-width: 1900px) { 
-  #image-left img{
-    position: absolute;
-    display:flex;
-    align-items: center !important; 
-    justify-content: center !important;
-    margin-top: -455px;
-    margin-left: 25%;
-  }
-  #discount-img img{
-    width: 100px;
-    opacity: 0.2;
-    position: relative;
-    text-align: center;
-  }
+
 }
