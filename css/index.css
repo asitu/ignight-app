@@ -94,9 +94,6 @@ body {
   z-index: -1;
 }
 
-
-
-
 #section-4 {
   margin-top: 90px;
   padding-bottom: 100px;
@@ -140,11 +137,8 @@ p{
   background-size: cover;
 }
 #section-resale-1{
-position: absolute;
 text-align: center;
 padding-top: 90px;
-padding-left: 450px;
-padding-right: 400px;
 z-index: 1;
 }
 #discount-img img{
