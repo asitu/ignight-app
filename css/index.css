@@ -5,7 +5,7 @@ body {
 .hero {
   /* Sizing */
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
   color: white;
   /* Flexbox stuff */
   display: flex;
@@ -50,6 +50,7 @@ body {
 }
 #phone-mockup-hero img{
   padding-top: 10vh;
+
 }
 #section-1 {
   margin-top: 130px;
