@@ -138,8 +138,9 @@ p{
 }
 #section-resale-1{
 text-align: center;
-padding-top: 90px;
-z-index: 1;
+top: 50%;
+position: relative;
+transform: translateY(-50%);
 }
 #discount-img img{
   opacity: 0.2;
